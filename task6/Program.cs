@@ -2,13 +2,12 @@
 Console.Write("Введите 3-рех значное число: ");
 
 int number = Convert.ToInt32(Console.ReadLine());
-int secondDigit = number / 10 % 10;
+string secondDigit = Convert.ToString(number);
 
-
-if(number >= 100 && number < 1000)
+if(secondDigit.Length > 2)
 {
 
-Console.WriteLine("Вы ввели число: " + number + " вторая цифра этого числа: " + secondDigit);
+Console.WriteLine("Вы ввели число: " + number + " вторая цифра этого числа: " + secondDigit[2]);
 
 }
 else 
