@@ -6,7 +6,7 @@ Console.Write("Вот наш массив:");
 PrintArray(numbers);
 int count = 0;
 
-for (int a = 0; a < numbers.Length; z++)
+for (int a = 0; a < numbers.Length; a++)
 if (numbers[a] % 2 == 0)
 count++;
 

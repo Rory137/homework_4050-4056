@@ -7,7 +7,7 @@ PrintArray(numbers);
 int sum = 0;
 
 for (int v = 0; v < numbers.Length; v+=2)
-    sum = sum + numbers[z];
+    sum = sum + numbers[v];
 
     Console.WriteLine($"всего {numbers.Length} чисел, сумма элементов на нечётных позициях = {sum}");
 
